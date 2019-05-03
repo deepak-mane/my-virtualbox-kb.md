@@ -28,7 +28,7 @@ allocate a fixed IP address for an Ubuntu Server   guest OS running in Virtual B
 - Solution:
 When you give a VM a Bridged Adapter, its affectingly like giving it its own NIC connected directly to your network.
 
-The Ubuntu installation inside of the VM needs to be set to use a static IP address. This is done in the  /etc/network/interfaces file. Some information about the interfaces file can be found on this page: https://help.ubuntu.com/12.04/serverguide/network-configuration.html
+The Ubuntu installation inside of the VM needs to be set to use a static IP address. This is done in the  /etc/network/interfaces file. Some information about the interfaces file can be found on this [page](https://help.ubuntu.com/18.04/serverguide/network-configuration.html)
 
 Here is an example interfaces file configured to match your question:
 ```
